@@ -1,0 +1,71 @@
+
+
+.bannercontainer{
+    background-image: url('../public/images/Background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: #ebf3f5;
+    font-family: quasimoda, sans-serif;
+
+    h1{
+        font-size: 64pt;
+        font-weight: bold;
+        word-wrap: break-word;
+    }
+    @media screen and (max-width: 768px) {
+        h1{
+            margin-top: 24px;
+            font-size:  24pt;
+            text-align: center;
+        }
+
+        padding: 0.25em;
+        padding-bottom: 0.4em;
+        p{
+            width: 90% !important;
+            word-wrap: break-word;
+        }
+    }
+    p{
+        font-size: 20pt;
+        width: 65%;
+    }
+
+
+    padding: 2em;
+    padding-bottom: 6em;
+}
+
+.headerlogo{
+    height: 25em;
+    align-self: center;
+    justify-self: center;
+}
+
+.button{
+    font-size: 32pt;
+    font-family: 'Roboto Slab';
+    background-color: #1E1F21;
+    color: #ebf3f5;
+    padding: 24px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 16pt;
+        padding: 12px;
+        margin-bottom: 64px;
+    }
+}
+
+
+.address{
+    justify-self: center;
+    font-family: quasimoda, sans-serif;
+    text-align: center;
+    font-size: 18pt;
+}

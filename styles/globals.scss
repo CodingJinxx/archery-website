@@ -1,0 +1,50 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url("https://use.typekit.net/qwz0lus.css");
+
+
+@font-face{
+  font-family: 'Roboto Slab';
+  src: url("../public/fonts/RobotoSlab-Regular.ttf");
+}
+
+.disabled{
+  color: #707070 !important;
+}
+
+html,body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+body{
+  -ms-overflow-style:none;
+  scrollbar-width: none;
+}
+
+
+.navbar-dark{
+  .navbar-nav{
+      .nav-item{
+          margin-right: 12px;
+          .nav-link{
+              color: #ebf3f5;
+              font-family: 'Roboto Slab';
+          }
+          .nav-link:hover{
+            color: #aeafaf;
+          }
+      }
+  }
+}
+
+img{
+  border: 0px;
+}
+

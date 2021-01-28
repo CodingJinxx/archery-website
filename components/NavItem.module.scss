@@ -1,0 +1,14 @@
+
+.active{
+    background-color: #16b2d2;
+    border-radius: 10px;
+}
+
+
+
+@media (max-width: 800px) { 
+    .active{
+        background-color: rgba($color: #000000, $alpha: 0.0);
+        color: #16b2d2 !important;
+    }
+}

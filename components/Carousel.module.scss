@@ -1,0 +1,15 @@
+.containeroverride{
+    width: 40%;
+    img{
+        height: 550px !important;
+        object-fit: cover;
+    }
+
+    @media (max-width: 900px) { 
+        width: 95%;
+    }
+
+    @media (max-width: 1200px) { 
+        width: 60%;
+    }
+}
