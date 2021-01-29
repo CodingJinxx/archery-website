@@ -15,9 +15,9 @@ const NavItem: React.FC<Props> = (props) => {
     <li className="nav-item">
         {
         props.isCurrent  ?
-            <a className={style.active + " nav-link active " + props.className } aria-current="page" href={props.href}>{props.children}</a>
+            <a className={style.active + " nav-link active " + props.className } aria-current="page" href={`${process.env.BACKEND_URL}${props.href}`}>{props.children}</a>
         :
-            <a className={"nav-link " + props.className} href={props.href}>{props.children}</a>
+            <a className={"nav-link " + props.className} href={`${process.env.BACKEND_URL}${props.href}`}>{props.children}</a>
         }
     </li>
     );

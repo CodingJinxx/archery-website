@@ -9,4 +9,8 @@ module.exports = {
   
       return config
     },
-  }
+    assetPrefix: "/archery-website/",
+    env: {
+      BACKEND_URL: "/archery-website"
+    }
+}
