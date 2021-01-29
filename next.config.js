@@ -1,4 +1,4 @@
-if(process.env.TRAVIS == true){
+if(process.env.TRAVIS){
   module.exports = {
     webpack: (config, { isServer }) => {
       // Fixes npm packages that depend on `fs` module
