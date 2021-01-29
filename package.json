@@ -2,13 +2,15 @@
   "name": "archery-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://CodingJinxx.github.io/archery-website",
   "scripts": {
     "dev": "next dev",
     "debug": "node --inspect-brk ./node_modules/next/dist/bin/next",
     "build": "next build",
     "start": "next start",
+    "export" : "next export",
     "build-static": "next build && next export",
-    "pub-dev" : "next dev -p 80"
+    "pub-dev": "next dev -p 80"
   },
   "dependencies": {
     "bootstrap": "^5.0.0-beta1",
