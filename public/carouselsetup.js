@@ -1,5 +1,5 @@
 $(window).on('load', () => {
   $('.carousel').carousel({
-    interval: 900
+    interval: 2000
   })
 });
