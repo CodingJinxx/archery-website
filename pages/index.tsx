@@ -31,7 +31,7 @@ export default function Home() {
             euismod egestas. Integer ac nunc cursus, auctor nibh id, tempus
             purus.{" "}
           </p>
-          <form action="/gallery">
+          <form action={`${process.env.BACKEND_URL}/gallery`}>
             <button className={style.button + " btn mt-4"} type="submit">
               GALLERIE
             </button>
@@ -50,8 +50,8 @@ export default function Home() {
               ></Carousel>
             </div>
           </div>
-          <img src="/images/pexels-pixabay-219906.png" alt="" style={{position: "absolute", left: "20px", top:"20px", width: "400px", zIndex: -1}} className="d-none d-lg-block"/>
-          <img src="/images/pexels-tomáš-malík-3509971.png" alt="" style={{position: "absolute", right: "20px", bottom:"20px", width: "400px", zIndex: -1}} className="d-none d-lg-block"/>
+          <img src="images/pexels-pixabay-219906.png" alt="" style={{position: "absolute", left: "20px", top:"20px", width: "400px", zIndex: -1}} className="d-none d-lg-block"/>
+          <img src="images/pexels-tomáš-malík-3509971.png" alt="" style={{position: "absolute", right: "20px", bottom:"20px", width: "400px", zIndex: -1}} className="d-none d-lg-block"/>
         </div>
 
         <div className="container my-5 location">
@@ -68,7 +68,7 @@ export default function Home() {
               </div>
               <div className="col-12 col-md-3">
                 <div className="d-flex justify-content-center">
-                  <img src="/images/Map.png" alt="" style={{width: "80%", height: "auto", minWidth: "300px"}}/>
+                  <img src="images/Map.png" alt="" style={{width: "80%", height: "auto", minWidth: "300px"}}/>
                 </div>
               </div>
           </div>

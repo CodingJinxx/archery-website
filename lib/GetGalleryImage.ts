@@ -10,7 +10,7 @@ function GetGalleryImages() {
     }] )
 
     for (let index = 0; index < images.length; index++) {
-        images[index] = images[index].replace('public', '');
+        images[index] = images[index].replace('public/', '');
         
     }
 
