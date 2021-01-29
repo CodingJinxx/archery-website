@@ -1,6 +1,8 @@
 language: node_js 
 node_js:
   - 12 
+env:
+  - TRAVIS=true
 cache:
   directories:
   - node_modules 
